@@ -1,5 +1,5 @@
 <?php
-echo form_open_multipart('Kamera/create');
+echo form_open_multipart('kamera/create');
 ?>
 
 <table border='1'>
