@@ -22,7 +22,7 @@ class ModelKamera extends CI_Model
     }
 
     public function del_kamera($kode_kamera){
-        return $this->db->delete('kamera', ['kode_barang'=>$kode_bsarang]);
+        return $this->db->delete('kamera', ['kode_barang'=>$kode_barang]);
     }
 }
 

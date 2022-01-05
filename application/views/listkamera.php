@@ -8,7 +8,7 @@
     </tr>
     <?php
     foreach($kamera as $kmr){
-        $kode_barang= $kmr['kb'];
+        $kode_barang= $kmr['kode_barang'];
         $merek= $kmr['merek'];
         $sewa_hari= $kmr['sewa_hari'];
         $harga= $kmr['harga'];
